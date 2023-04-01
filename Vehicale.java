@@ -6,6 +6,9 @@ public class Vehicale {
 		
 		PetrolEngine pE = new PetrolEngine();
 		pE.start();
+		
+		ElectricEngine eE = new ElectricEngine();
+		eE.start();
 	
 	}
 }
