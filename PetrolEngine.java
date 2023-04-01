@@ -1,7 +1,7 @@
 
 public class PetrolEngine {
 	
-	static start() {
-		System.out.print("Started");
+	public void start() {
+		System.out.print("Started Petroal Engine");
 	}
 }
