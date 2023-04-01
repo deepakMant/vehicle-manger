@@ -9,6 +9,10 @@ public class Vehicale {
 		
 		ElectricEngine eE = new ElectricEngine();
 		eE.start();
+		
+		HydrogenEngine hE = new HydrogenEngine();
+		hE.start();
+		hE.stop();
 	
 	}
 }
